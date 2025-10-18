@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <div class="particulas"></div>
+
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu-link">Início</a>
+            </li>
+            <li>
+                <a href="#sobre" class="menu-link">Sobre Mim</a>
+            </li>
+            <li>
+                <a href="#projetos" class="menu-link">Projetos</a>
+            </li>
+            <li>
+                <a href="#contatos" class="menu-link">Contato</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="inicio" class="cabecalho">
+        <div>
+            <img src="img/foto_perfil.jpg" alt="Foto de Iago Ferreira Silva" class="foto-perfil">
+            <h1>Iago Ferreira Silva</h1>
+            <p class="cabecalho-sub-titulo">Desenvolvedor Front End e IA</p>
+        </div>
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">Olá! Me chamo Iago Ferreira, estudante de Sistemas da Informação e Análise e Desenvolvimento de Sistemas. Sou apaixonado por programação, com foco em desenvolvimento front-end e crescente interesse em Inteligência Artificial. Gosto de criar interfaces intuitivas, responsivas e funcionais que melhoram a experiência do usuário. Paralelamente, estudo IA e suas aplicações no desenvolvimento de soluções inteligentes e inovadoras. Meu objetivo é unir tecnologia, design e inteligência artificial para construir projetos que realmente façam a diferença.</p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulos">Meus Projetos</h2>
+        <div class="projetos-caixa">
+
+            <div class="projetos-cards">
+                <img src="img/projeto01.png" alt="Projeto 1" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Catálogos de Filmes</h3>
+                    <p class="paragrafo-projetos">Projeto FilmFrenzy, um catálogo de filmes desenvolvido com foco em boas práticas, integração com APIs externas e hospedagem completa front-end + back-end.</p>
+                </div>
+            </div>
+
+            <div class="projetos-cards">
+                <img src="img/projeto02.png" alt="Projeto 2" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">AudioBook</h3>
+                    <p class="paragrafo-projetos">O App Áudio Book é uma aplicação web simples e funcional que permite ouvir capítulos narrados de livros com controles de reprodução, pausa e navegação entre faixas.</p>
+                </div>
+            </div>
+
+            <div class="projetos-cards">
+                <img src="img/projeto03.png" alt="Projeto 3" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Job Finder</h3>
+                    <p class="paragrafo-projetos">Este sistema é um portal para programadores encontrarem vagas de trabalho.</p>
+                </div>
+            </div>
+
+            <div class="projetos-cards">
+                <img src="img/projeto04.png" alt="Projeto 4" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Prompt Manager</h3>
+                    <p class="paragrafo-projetos">O Prompt Manager é uma aplicação web prática e intuitiva que permite organizar todos os seus prompts de IA em um só lugar.</p>
+                </div>
+            </div>
+
+            <div class="projetos-cards">
+                <img src="img/projeto05.png" alt="Projeto 5" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Cardápio Digital</h3>
+                    <p class="paragrafo-projetos">Criação de uma cardápio digital onde você pode visualizar diferentes tipos de refeições e categorias de alimentos.</p>
+                </div>
+            </div>
+
+            <div class="projetos-cards">
+                <img src="img/projeto06.png" alt="Projeto 6" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Agente IA</h3>
+                    <p class="paragrafo-projetos">Este projeto tem como objetivo mostrar um agente IA que conversa e interage com o usuário.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulos">Entre em Contato</h2>
+
+        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+            <div class="grupo-form">
+                <input placeholder="Nome" class="campo-form" id="nome">
+            </div>
+
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite sua mensagem..." rows="4" id="mensagem"></textarea>
+            </div>
+
+            <button type="submit" class="botao-form">Enviar WhatsApp</button>
+        </form>
+    </section>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
