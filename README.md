@@ -70,7 +70,7 @@ Durante o desenvolvimento deste portfólio, pude aprimorar habilidades como:
 ## 🌐 Acesse meu Portfólio Online
 
 <p>
-  🔗 <a href="" target="_blank"><strong>👉 Clique aqui para acessar meu portfólio</strong></a>
+  🔗 <a href="" target="_blank"><strong>Clique aqui para acessar meu portfólio</strong></a>
 </p>
 
 ---
