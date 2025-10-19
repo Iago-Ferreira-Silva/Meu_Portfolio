@@ -3,7 +3,7 @@ export function enviarWhats(event) {
 
   const nome = document.getElementById('nome').value.trim();
   const mensagem = document.getElementById('mensagem').value.trim();
-  const telefone = import.meta.env.VITE_WHATSAPP_NUMBER;
+  const telefone = '5588997911305';
 
   if (!nome || !mensagem) {
     alert('Por favor, preencha seu nome e mensagem antes de enviar.');
