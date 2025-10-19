@@ -70,7 +70,7 @@ Durante o desenvolvimento deste portfólio, pude aprimorar habilidades como:
 ## 🌐 Acesse meu Portfólio Online
 
 <p>
-  🔗 <a href="" target="_blank"><strong>Clique aqui para acessar meu portfólio</strong></a>
+  🔗 <a href="https://meupor.netlify.app/" target="_blank"><strong>Clique aqui para acessar meu portfólio</strong></a>
 </p>
 
 ---
@@ -87,6 +87,6 @@ Durante o desenvolvimento deste portfólio, pude aprimorar habilidades como:
 
 ***
 ## 📌 STATUS DO PROJETO:
-![Badge Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=yellow&style=for-the-badge)
+![Badge Concluído](https://img.shields.io/static/v1?label=STATUS&message=CONCLU%C3%8DDO&color=brightgreen&style=for-the-badge)
 
 ***
