@@ -39,7 +39,7 @@ function App() {
       <section id="projetos" className="projetos">
         <h2 className="projetos-titulos">Meus Projetos</h2>
         <div className="projetos-caixa">
-          <div class="projetos-cards">
+          <div className="projetos-cards">
                 <img src="img/projeto01.png" alt="Projeto 1" className="projetos-imagem" />
                 <div className="caixa-textos-projeto">
                     <h3 className="info-projetos">Catálogos de Filmes</h3>
@@ -81,9 +81,9 @@ function App() {
 
             <div className="projetos-cards">
                 <img src="img/projeto06.png" alt="Projeto 6" className="projetos-imagem" />
-                <div class="caixa-textos-projeto">
-                    <h3 class="info-projetos">Agente IA</h3>
-                    <p class="paragrafo-projetos">Este projeto tem como objetivo mostrar um agente IA que conversa e interage com o usuário.</p>
+                <div className="caixa-textos-projeto">
+                    <h3 className="info-projetos">Agente IA</h3>
+                    <p className="paragrafo-projetos">Este projeto tem como objetivo mostrar um agente IA que conversa e interage com o usuário.</p>
                 </div>
             </div>
         </div>
