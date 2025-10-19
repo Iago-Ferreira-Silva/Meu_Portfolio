@@ -78,9 +78,6 @@ Durante o desenvolvimento deste portfólio, pude aprimorar habilidades como:
 ## 🌐 Contatos
 
 <p>
-  📧 <a href="iagoferreira008@gmail.com" target="_blank"><strong>Meu E-mail</strong></a>
-</p>
-<p>
   💼 <a href="https://www.linkedin.com/in/iago-ferreira-9278ab257/" target="_blank"><strong>Linkedin</strong></a>
 </p>
 📱 WhatsApp: disponível via formulário do site
